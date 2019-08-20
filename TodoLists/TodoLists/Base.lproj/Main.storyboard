@@ -43,10 +43,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tvListView" destination="QtE-k7-cde" id="z3l-lu-R7N"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5KT-8s-3r8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="879.20000000000005" y="83.497536945812811"/>
+            <point key="canvasLocation" x="834" y="83"/>
         </scene>
         <!--Detail View-->
         <scene sceneID="zYb-gs-XuU">
@@ -102,6 +105,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3tQ-Vl-NOv"/>
                     </view>
+                    <connections>
+                        <outlet property="tfAddItem" destination="sqV-c1-epG" id="5H9-PS-km6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mhm-dR-gQR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
